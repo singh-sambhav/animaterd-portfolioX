@@ -3,7 +3,7 @@
     overflow: hidden;
     background: linear-gradient(180deg,#0c0c1d,#1b1b4b);
     position: relative;
-
+    // z-index: -1;
     .wrapper{
         max-width: 1366px;
         height: 100%;
@@ -15,11 +15,33 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
+            margin-left: 5rem;
+            width: 50%;
 
-
+            h2{
+                font-size: 30px;
+                color: rebeccapurple;
+                letter-spacing: 7px;
+            }
+            h1{
+                font-size: 88px;
+            }
+           .buttons{
+            button{
+                padding: 20px;
+                border: 2px solid white;
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                margin-right: 20px;
+                cursor: pointer;
+                font-weight: 400;
+            }
+           }
             img{
                 width: 50px;
             }
+
         }
     }
 
@@ -28,5 +50,15 @@
         position: absolute;
         top: 0;
         right: 0;
+    }
+
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -100px;
+        white-space: nowrap;
+        color:#ffffff09;
+        width:50%;
+        font-weight: bold;
     }
 }
