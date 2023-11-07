@@ -53,6 +53,7 @@
     }
 
     .slidingTextContainer{
+        z-index: -1;
         position: absolute;
         font-size: 50vh;
         bottom: -100px;
