@@ -28,7 +28,7 @@ export const Services = () => {
      initial="initial"
     //  whileInView="animate"
     ref = {ref}
-    animate={isInView && "animate"}
+    animate={ "animate"}
     >
         <motion.div className="textContainer">
             <p>I focus on helping your brand grow <br/>and move forward</p>
